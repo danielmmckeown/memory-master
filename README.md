@@ -68,7 +68,8 @@ Using SQLite
 By following these steps, you'll have a functional desktop-based spaced repetition software built with Python and PyQt5.
 
 Here is the project structure:
-flashcard_app/
+```markdown
+memory-master/
 ├── main.py
 ├── database/
 │   ├── __init__.py
@@ -93,3 +94,4 @@ flashcard_app/
 └── utils/
     ├── __init__.py
     ├── helpers.py
+```
