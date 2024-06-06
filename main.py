@@ -1,3 +1,5 @@
+# This is the entry point of Memory Master. It initializes the application, sets up the main window, and starts the event loop.
+
 import sys
 from PyQt5.QtWidgets import QApplication
 from ui.main_window import MainWindow
