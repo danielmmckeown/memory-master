@@ -66,3 +66,30 @@ Using SQLite
    - Implement functions to manage flashcard data in SQLite.
 
 By following these steps, you'll have a functional desktop-based spaced repetition software built with Python and PyQt5.
+
+Here is the project structure:
+flashcard_app/
+├── main.py
+├── database/
+│   ├── __init__.py
+│   ├── db_manager.py
+├── models/
+│   ├── __init__.py
+│   ├── flashcard.py
+│   ├── user.py
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── create_flashcard_dialog.py
+│   ├── review_flashcard_widget.py
+├── algorithms/
+│   ├── __init__.py
+│   ├── leitner.py
+│   ├── supermemo.py
+├── resources/
+│   ├── images/
+│   ├── styles/
+│       └── main.qss
+└── utils/
+    ├── __init__.py
+    ├── helpers.py
