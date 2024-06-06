@@ -1,3 +1,5 @@
+# Defines the main application window.
+
 from PyQt5.QtWidgets import QMainWindow, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QLabel, QWidget, QToolBar, QAction
 from database.db_manager import init_db, get_due_flashcards, update_flashcard_review
 
