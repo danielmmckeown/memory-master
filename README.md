@@ -19,7 +19,7 @@ Here's a detailed plan to develop your desktop-based spaced repetition software 
 **Framework:** PyQt5 for GUI
 
 ### 3. Design the Database
-SQLite
+Using SQLite
 
 ### 4. Implement the Spaced Repetition Algorithm
 **Leitner System:**
